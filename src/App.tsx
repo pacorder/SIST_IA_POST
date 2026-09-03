@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { CaseStudyDemo } from './components/CaseStudyDemo';
 import { ConfirmationPage } from './components/ConfirmationPage';
 import { Footer } from './components/Footer';
@@ -37,7 +38,12 @@ export default function App() {
   };
 
   if (isConfirmationRoute) {
-    return <ConfirmationPage />;
+    return (
+      <>
+        <ConfirmationPage />
+        <Analytics />
+      </>
+    );
   }
 
   return (
@@ -74,6 +80,9 @@ export default function App() {
 
       {/* Footer */}
       <Footer />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
