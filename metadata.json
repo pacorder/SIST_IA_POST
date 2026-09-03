@@ -1,0 +1,6 @@
+{
+  "name": "Sistema IA de Postulación",
+  "description": "De la oferta de trabajo a la entrevista preparada. Metodología práctica para profesionales con experiencia usando ChatGPT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
