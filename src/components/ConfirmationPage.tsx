@@ -98,7 +98,7 @@ export const ConfirmationPage: React.FC = () => {
 
             <div className="flex justify-between py-1">
               <span className="text-slate-600">Total pagado:</span>
-              <span className="font-extrabold text-blue-700 text-base">US$ 29.00</span>
+              <span className="font-extrabold text-blue-700 text-base">$19.990 CLP</span>
             </div>
 
             <div className="flex justify-between py-1">

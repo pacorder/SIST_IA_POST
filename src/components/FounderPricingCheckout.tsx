@@ -29,7 +29,7 @@ export const FounderPricingCheckout: React.FC<FounderPricingCheckoutProps> = () 
           <span>OFERTA FUNDADOR — PREVENTA EXCLUSIVA</span>
         </div>
         <h2 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
-          Primera edición — US$29
+          Primera edición — $19.990 CLP
         </h2>
         <p className="mt-3 text-slate-600 text-sm sm:text-base leading-relaxed">
           Acceso limitado inicialmente a <strong className="text-slate-900">10 usuarios</strong>. Los primeros usuarios obtendrán acceso a la primera versión completa del Sistema IA de Postulación y actualizaciones futuras.
@@ -93,15 +93,15 @@ export const FounderPricingCheckout: React.FC<FounderPricingCheckoutProps> = () 
             <div className="pt-5 space-y-2 text-xs sm:text-sm">
               <div className="flex justify-between text-slate-400">
                 <span>Precio regular futuro:</span>
-                <span className="line-through text-slate-500">US$ 75.00</span>
+                <span className="line-through text-slate-500">$49.990 CLP</span>
               </div>
               <div className="flex justify-between text-blue-400 font-medium">
-                <span>Descuento fase fundador (-61%):</span>
-                <span>- US$ 46.00</span>
+                <span>Descuento fase fundador (-60%):</span>
+                <span>- $30.000 CLP</span>
               </div>
               <div className="flex justify-between text-base font-bold text-white pt-2 border-t border-slate-800">
                 <span>Total precio fundador:</span>
-                <span className="text-2xl font-extrabold text-white">US$ 29.00</span>
+                <span className="text-2xl font-extrabold text-white">$19.990 CLP</span>
               </div>
             </div>
           </div>
@@ -144,8 +144,8 @@ export const FounderPricingCheckout: React.FC<FounderPricingCheckoutProps> = () 
               <span className="text-xs uppercase tracking-wider font-semibold text-slate-500 block mb-1">
                 Total a pagar
               </span>
-              <div className="text-4xl font-extrabold text-slate-900 tracking-tight">
-                US$ 29<span className="text-lg font-medium text-slate-500">.00</span>
+              <div className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+                $19.990 <span className="text-lg font-medium text-slate-500">CLP</span>
               </div>
               <span className="text-xs text-slate-500 block mt-1">
                 Pago único • Sin cobros recurrentes • Acceso inmediato
@@ -176,7 +176,7 @@ export const FounderPricingCheckout: React.FC<FounderPricingCheckoutProps> = () 
               rel="noopener noreferrer"
               className="w-full inline-flex items-center justify-center gap-2.5 px-6 py-4 text-base sm:text-lg font-bold text-white bg-blue-700 hover:bg-blue-800 rounded-xl shadow-md hover:shadow-lg transition-all transform active:scale-[0.99] text-center"
             >
-              <span>Pagar US$29 con Flow</span>
+              <span>Pagar $19.990 CLP con Flow</span>
               <ExternalLink className="w-4 h-4" />
             </a>
 

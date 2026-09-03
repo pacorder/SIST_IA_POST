@@ -35,7 +35,7 @@ export const StickyBottomBar: React.FC<StickyBottomBarProps> = ({ onGoToCheckout
             <div className="flex items-center gap-1.5 font-bold text-slate-900 text-xs sm:text-sm">
               <span>Edición Fundador</span>
               <span className="text-slate-400 font-normal">|</span>
-              <span className="text-blue-700 font-extrabold text-sm sm:text-base">US$ 29</span>
+              <span className="text-blue-700 font-extrabold text-sm sm:text-base">$19.990 CLP</span>
             </div>
             <span className="text-[11px] text-slate-500 hidden xs:inline">
               Fase 1 limitada a 10 cupos (Solo 3 restantes)
@@ -50,7 +50,7 @@ export const StickyBottomBar: React.FC<StickyBottomBarProps> = ({ onGoToCheckout
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center gap-1.5 px-4 py-2 sm:px-5 sm:py-2.5 text-xs sm:text-sm font-bold text-white bg-blue-700 hover:bg-blue-800 rounded-lg shadow-sm transition-all cursor-pointer whitespace-nowrap"
         >
-          <span>Pagar con Flow — US$29</span>
+          <span>Pagar con Flow — $19.990 CLP</span>
           <ArrowRight className="w-3.5 h-3.5" />
         </a>
       </div>

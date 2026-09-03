@@ -38,7 +38,7 @@ export const Header: React.FC<HeaderProps> = ({ onGoToCheckout }) => {
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center gap-1.5 px-3.5 py-2 sm:px-4 sm:py-2 text-xs sm:text-sm font-semibold text-white bg-blue-700 hover:bg-blue-800 rounded-lg shadow-sm transition-colors cursor-pointer"
           >
-            <span>Pagar US$29</span>
+            <span>Pagar $19.990 CLP</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </a>
         </div>

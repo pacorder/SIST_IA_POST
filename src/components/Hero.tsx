@@ -54,7 +54,7 @@ export const Hero: React.FC<HeroProps> = ({ onGoToCheckout }) => {
         <div className="max-w-xl mx-auto bg-slate-900 text-white rounded-2xl p-5 sm:p-6 shadow-xl mb-12 border border-slate-800 text-center">
           <div className="flex items-baseline justify-center gap-2 mb-2">
             <span className="text-xs uppercase tracking-wider text-slate-400 font-semibold">Precio fundador:</span>
-            <span className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">US$29</span>
+            <span className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">$19.990 CLP</span>
             <span className="text-xs text-slate-400 font-medium">pago único</span>
           </div>
 
@@ -65,7 +65,7 @@ export const Hero: React.FC<HeroProps> = ({ onGoToCheckout }) => {
             rel="noopener noreferrer"
             className="w-full mt-2 inline-flex items-center justify-center gap-2 px-6 py-3.5 sm:py-4 text-base sm:text-lg font-bold text-white bg-blue-600 hover:bg-blue-500 rounded-xl shadow-md transition-all transform active:scale-[0.99] cursor-pointer text-center"
           >
-            <span>Pagar con Flow — US$29</span>
+            <span>Pagar con Flow — $19.990 CLP</span>
             <ArrowRight className="w-5 h-5 text-white" />
           </a>
 

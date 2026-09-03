@@ -149,7 +149,7 @@ export const HowItWorks: React.FC<HowItWorksProps> = ({ onGoToCheckout }) => {
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center gap-2 px-6 py-3 text-sm sm:text-base font-bold text-white bg-blue-700 hover:bg-blue-800 rounded-xl shadow-sm transition-all cursor-pointer w-full sm:w-auto"
         >
-          <span>Pagar con Flow — US$29</span>
+          <span>Pagar con Flow — $19.990 CLP</span>
           <ArrowRight className="w-4 h-4" />
         </a>
         <span className="block mt-2 text-xs text-slate-500">
