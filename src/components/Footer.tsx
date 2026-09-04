@@ -1,5 +1,6 @@
 import React from 'react';
 import { Mail, Shield } from 'lucide-react';
+import { HitCounter } from './HitCounter';
 
 export const Footer: React.FC = () => {
   return (
@@ -28,6 +29,11 @@ export const Footer: React.FC = () => {
               <span>Soporte directo</span>
             </div>
           </div>
+        </div>
+
+        {/* Contador discreto FeedPulse */}
+        <div className="py-6 border-b border-slate-800/80 flex justify-center">
+          <HitCounter />
         </div>
 
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-500 text-[11px] leading-relaxed">
